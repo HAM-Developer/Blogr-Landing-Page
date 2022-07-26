@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Blogr</title>
+    <link rel="stylesheet" href="./dist/css/Style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2>Blogr</h2>
+        <ul id="nav">
+          <div class="nav_container">
+            <div class="menu_items">
+              <li>
+                <a href="#" class="btn btn1">
+                  Product
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
+                    <path
+                      fill="none"
+                      stroke="#FF7B86"
+                      stroke-width="2"
+                      d="M1 1l4 4 4-4"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <ul class="sub_nav nav1 close">
+                <li><a href="#"> Overview </a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Integrations</a></li>
+              </ul>
+            </div>
+            <div class="menu_items">
+              <li>
+                <a href="#" class="btn btn2"
+                  >Company
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
+                    <path
+                      fill="none"
+                      stroke="#FF7B86"
+                      stroke-width="2"
+                      d="M1 1l4 4 4-4"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <ul class="sub_nav nav2">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Blog </a></li>
+                <li><a href="#"> Career</a></li>
+              </ul>
+            </div>
+            <div class="menu_items">
+              <li>
+                <a href="#" class="btn btn3">
+                  Connect
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7">
+                    <path
+                      fill="none"
+                      stroke="#FF7B86"
+                      stroke-width="2"
+                      d="M1 1l4 4 4-4"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <ul class="sub_nav nav3">
+                <li><a href="#"> Contact</a></li>
+                <li><a href="#">Newsletter </a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <img src="/dist/images/icon-arrow-light.svg" alt="" />
+              </ul>
+            </div>
+          </div>
+          <div class="last_nav">
+            <li><a href="#">Login</a></li>
+            <li><a href="#" id="btn">Sign Up</a></li>
+          </div>
+        </ul>
+        <img src="/dist/images/icon-hamburger.svg" alt="" id="hamburger" />
+        <img src="/dist/images/icon-close.svg" alt="" id="cancel" />
+      </nav>
+      <div class="hero_section" data-aos="fade-up">
+        <h1>A modern publishing platform</h1>
+        <p>Grow your audience and build your online brand</p>
+        <ul class="links">
+          <li><a href="#" class="active"> Start for Free</a></li>
+          <li><a href="#"> Learn More </a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="section1">
+      <h2 data-aos="fade-up">Designed for the future</h2>
+      <img
+        src="/dist/images/illustration-editor-desktop.svg"
+        alt=""
+        class="dt_illus" data-aos="fade-up"
+      />
+      <img
+        src="/dist/images/illustration-editor-mobile.svg"
+        alt=""
+        class="mb_illus" data-aos="fade-up"
+      />
+      <div class="section_can1">
+        <div class="section_can2 can" data-aos="fade-up">
+          <h3>Introducing an extensible editor</h3>
+          <p>
+            Blogr features an exceedingly intuitive interface which lets you
+            focus on one thing: creating content. The editor supports management
+            of multiple blogs and allows easy manipulation of embeds such as
+            images, videos, and Markdown. Extensibility with plugins and themes
+            provide easy ways to add functionality or change the looks of a
+            blog.
+          </p>
+        </div>
+        <div class="section_can3 can" data-aos="fade-up">
+          <h3>Robust content management</h3>
+          <p>
+            Flexible content management enables users to easily move through
+            posts. Increase the usability of your blog by adding customized
+            categories, sections, format, or flow. With this functionality,
+            you’re in full control.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section2">
+      <img src="/dist/images/illustration-phones.svg" alt="" data-aos="fade-up"/>
+      <div class="section2_can1" data-aos="fade-up">
+        <h2>State of the Art Infrastructure</h2>
+
+        <p>
+          With reliability and speed in mind, worldwide data centers provide the
+          backbone for ultra-fast connectivity. This ensures your site will load
+          instantly, no matter where your readers are, keeping your site
+          competitive.
+        </p>
+      </div>
+    </section>
+    <section class="section3">
+      <img
+        src="/dist/images/illustration-laptop-mobile.svg"
+        alt=""
+        class="mb_illus" data-aos="fade-up"
+      />
+      <img
+        src="/dist/images/illustration-laptop-desktop.svg"
+        alt=""
+        class="dt_illus" data-aos="fade-up" 
+      />
+      <div class="section3__container">
+
+      <div class="section3_can1 can" data-aos="fade-up">
+        <h3>Free, open, simple</h3>
+        <p>
+          Blogr is a free and open source application backed by a large
+          community of helpful developers. It supports features such as code
+          syntax highlighting, RSS feeds, social media integration, third-party
+          commenting tools, and works seamlessly with Google Analytics. The
+          architecture is clean and is relatively easy to learn.
+        </p>
+      </div>
+      <div class="section3_can2 can" data-aos="fade-up"> 
+        <h3>Powerful tooling</h3>
+        <p>
+          Batteries included. We built a simple and straightforward CLI tool
+          that makes customization and deployment a breeze, but capable of
+          producing even the most complicated sites.
+        </p>
+      </div>
+    </div>
+    </section>
+    <footer>
+<div class="footer__container">
+      <img src="./dist/images/logo.svg" />
+      <ul>
+        <h3>Product</h3>
+        <li><a href="">Overview </a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Marketplace</a></li>
+        <li><a href=""> Features</a></li>
+        <li><a href="">Integrations</a></li>
+      </ul>
+      <ul>
+        <h3>Company</h3>
+        <li><a href=""> About</a></li>
+        <li><a href=""> Team</a></li>
+        <li><a href="">Blog </a></li>
+        <li><a href="">Careers</a></li>
+      </ul>
+      <ul>
+        <h3>Connect</h3>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Newsletter</a></li>
+        <li><a href="">LinkedIn</a></li>
+      </ul>
+</div>
+    </footer>
+   
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+ 
+  </script>
+    <script src="./App.js"></script>
+  </body>
+</html>

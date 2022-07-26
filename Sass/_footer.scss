@@ -1,0 +1,44 @@
+footer{
+background-color: $footer-color;
+border-radius: 0 7rem 0 0;
+text-align: center;
+margin-top: $xxlr-mg-m;
+color: $white;
+padding: $xlr-pd-m 0;
+img{
+margin: $xxlr-mg-m;
+}
+        ul{
+margin: $xxlr-mg-m 0;}
+            h3{
+margin: $xxlr-mg-m 0;}
+                li{
+margin: 1rem;
+                }
+        a{
+color: $footer-text-color;
+transition: all 0.25s ease-out;
+&:hover{
+    border-bottom: 1px solid $white;
+        }
+            }
+            }
+                @media  screen and (min-width:768px) {
+                    footer{
+                        margin-top: 7rem;}
+                    footer img{
+                        margin: 0;}
+                        footer ul{
+                            margin: 0;
+                            }
+                                footer h3{
+                                    margin-top: 0;}
+                    footer .footer__container{
+                        width: 70%;
+                        margin-left:  7rem;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: flex-start;
+                        }
+                
+                }

@@ -1,0 +1,62 @@
+//COLORS
+$light-red: hsl(353, 100%, 62%);
+$very-light-red: hsl(13, 100%, 72%);
+$very-dark-blue: hsl(208, 49%, 24%);
+$para-color: hsl(207, 13%, 34%);
+$white: hsl(0, 0%, 100%);
+$footer-color: hsl(240, 10%, 16%);
+$footer-text-color: hsl(240, 2%, 79%);
+$bg-blue-color: linear-gradient(
+  to right,
+  hsl(237, 17%, 21%),
+  hsl(237, 23%, 32%)
+);
+$bg-red-color: linear-gradient(
+  to right,
+  hsl(13, 100%, 72%),
+  hsl(353, 100%, 62%)
+);
+//=============FONTS===========
+//====for MOBILE
+$logo-font-m: 1.4rem;
+$h1-font-m: 2rem;
+$h2-font-m: 1.8rem;
+$h3-font-m: 1.6rem;
+$p-font-m: 1rem;
+$li-font-m: 0.6rem;
+$btn-font-m: 0.8rem;
+$sm-font-wt: 600;
+// FOR DESKTOP
+$logo-font-d: 3rem;
+$h1-font-d: 2.4rem;
+$h2-font-d: 2.2rem;
+$h3-font-d: 2rem;
+$p-font-d: 1.2rem;
+$li-font-d: 1rem;
+$btn-font-d: 1.4rem;
+//=============MARGIN==========
+//for MOBILE
+$sm-mg-m: 0.5rem;
+$md-mg-m: 1rem;
+$lr-mg-m: 1.5rem;
+$xlr-mg-m: 2rem;
+$xxlr-mg-m: 2.5rem;
+//for DESKTOP
+$sm-mg-d: 1rem;
+$md-mg-d: 1.5rem;
+$lr-mg-d: 2rem;
+$xlr-mg-d: 2.5rem;
+$xxlr-mg-d: 3rem;
+//=============PADDING==========
+//for MOBILE
+$sm-pd-m: 0.5rem;
+$md-pd-m: 1rem;
+$lr-pd-m: 1.5rem;
+$xlr-pd-m: 2rem;
+$xxlr-pd-m: 2.5rem;
+//for DESKTOP
+$sm-pd-d: 1rem;
+$md-pd-d: 1.5rem;
+$lr-pd-d: 2rem;
+$xlr-pd-d: 2.5rem;
+$xxlr-pd-d: 3rem;

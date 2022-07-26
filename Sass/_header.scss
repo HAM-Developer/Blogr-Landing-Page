@@ -1,0 +1,69 @@
+header {
+  background-image: url(/dist/images/bg-pattern-intro.svg), $bg-red-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 0 0  5rem;
+  height: 100vh;
+  color: $white;
+  .hero_section {
+    text-align: center;
+    width: 85%;
+    margin: 30% auto;
+    h1 {
+      font-weight: 100;
+      font-size: 2.2rem;
+      letter-spacing: 0.5px;
+    }
+    p {
+      letter-spacing: 0.5px;
+      margin: $md-mg-m;
+      line-height: $lr-mg-m;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: $xlr-mg-m auto;
+      font-weight: 600;
+      a {
+        margin-inline: $sm-mg-m;
+        color: $white;
+        border: 1px solid $white;
+        border-radius: $lr-pd-m;
+        padding: $btn-font-m $lr-pd-m;
+        transition: all 0.25s ease-out;
+        &:hover {
+          background-color: $white;
+          color: $light-red;
+        }
+      }
+      .active {
+        background-color: $white;
+        color: $light-red;
+        &:hover {
+          background-color: hsla(353, 100%, 75%, 0.671);
+          color: $white;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  header {
+    border-end-start-radius: 10%;
+    .hero_section {
+      margin: 10% auto;
+      h1 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: $p-font-d;
+        margin-top: $lr-mg-d;
+      }
+      .links {
+        margin-top: 10%;
+      }
+    }
+  }
+}

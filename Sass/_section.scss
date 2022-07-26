@@ -1,0 +1,138 @@
+section {
+  text-align: center;
+  h3 {
+    color: $very-dark-blue;
+    margin: $xxlr-mg-m auto $lr-mg-m auto;
+    font-size: 1.4rem;
+    letter-spacing: 0.05rem;
+    width: 80%;
+  }
+  p {
+    width: 85%;
+    margin: auto;
+    color: $para-color;
+    line-height: $xlr-mg-m;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.section1 { 
+  h2 {
+    width: 90%;
+    margin: $xlr-mg-m;
+    font-size: 1.4rem;
+    color: $very-dark-blue;
+  }
+}
+.section2 {
+  position: relative;
+  background: hsl(235, 23%, 29%);
+  color: $white;
+  border-radius: 0 5rem 0 5rem;
+  margin: 14rem 0 $xxlr-mg-m 0;
+  padding: $xxlr-pd-m 0;
+  background-image: url(/dist/images/bg-pattern-circles.svg);
+  background-size: contain;
+  background-position: center -30%;
+  background-repeat: no-repeat;
+  h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.2rem;
+  }
+  p {
+    color: $white;
+    margin-top: $lr-mg-m;
+  }
+  img {
+    margin-top: -12rem;
+  }
+}
+.section3 {
+  p {
+    width: 80%;
+  }
+}
+    .mb_illus {
+  display: block;
+}
+.dt_illus {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .mb_illus {
+  display: none;
+}
+.dt_illus {
+  display: inline-block;
+}
+  section {
+    text-align: left;
+    padding-inline: 6rem;
+    h3 {
+      font-size: 1.4rem;
+    }
+
+    img {
+      width: 50%;
+    }
+    p {
+      width: 80%;
+      line-height: 1.9rem;
+      margin-inline: 0;
+    }
+  }
+  .section1 {
+    position: relative;
+    padding-top: 10%;
+    width: 100%;
+    & > h2 {
+      font-size: 1.9rem;
+      margin-bottom: 10%;
+      text-align: center;
+    }
+    h3 {
+      text-align: left;
+      font-size: 1.4rem;
+      margin-inline: 0;
+    }
+    img {
+      position: absolute;
+      top: 10%;
+      right: -40%;
+      width: 80%;
+      object-fit: cover;
+      float: right;
+    }
+    .section_can1 {
+      width: 60%;
+      .can {
+        margin: 0% 0;
+      }
+    }
+  }
+      .section2 {
+    background-position: left -100%;
+    background-size: contain;
+    height: 70vh;
+    margin: 30% 0 $xxlr-mg-m 0;
+    img {
+    }
+    .section2_can1 {
+      margin-top: 10%;
+      width: 50%;
+      float: right;
+    }
+  }
+    section.section3{
+      padding: 0;
+ .section3__container{
+      width: 40%;
+      float: right;
+      }
+        }
+}
+
+
